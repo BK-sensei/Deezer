@@ -334,3 +334,50 @@ hr{
     line-height: 1.4;
     margin-top: 50px;
 }
+
+
+/* OFFRES DEEZER */
+
+.offres{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.abo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px 150px;
+}
+
+.offre-text h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+.red-word{
+    color: #ef5466;
+}
+
+.offre-p{
+    font-size: 20px;
+}
+
+.abo button{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border-color: black;
+    background-color: #f9f9f9;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.abo .petit{
+    width: 170px;
+}
