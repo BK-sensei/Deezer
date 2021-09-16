@@ -64,19 +64,19 @@ hr{
 /* ACCUEIL */
 
 .accueil{
-    display: flex;
-    justify-content: space-around;
+    height: 400px;
     gap: 30px;
-}
-
-.accueil img{
-    width: 45%;
-    padding-right: 50px;
+    background-image: url("img/hero.png");
+    background-position: top 30px right 100px;
+    background-size: 600px;
+    background-repeat: no-repeat;
 }
 
 .elements-accueil{
-    padding-left: 250px;
+    width: 500px;
+    padding-left: 200px;
     padding-top: 50px;
+    text-align: left;
 }
 
 .elements-accueil h2{
