@@ -118,3 +118,36 @@ hr{
     background-color: white;
     color: #ef5466;
 }
+
+.deezer-cquoi{
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+
+/* DEEZER C'EST QUOI */
+
+.deezer-cquoi{
+    padding: 70px 200px 40px 200px;
+    gap: 130px;
+}
+
+.deezer-cquoi img{
+    height: 600px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+}
+
+.deezer-cquoi h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.deezer-cquoi h4{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
