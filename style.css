@@ -82,10 +82,39 @@ hr{
 .elements-accueil h2{
     font-size: 40px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .elements-accueil h3{
     font-size: 25px;
     font-weight: 500;
+    color: #ef5466;
+}
+
+.accueil-boutons button{
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    gap: 30px;
+}
+
+.accueil-boutons{
+    /* border: 1px solid red; */
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#premium{
+    border: none;
+    background-color: #ef5466;
+    color: white;
+}
+
+#free{
+    border-color: #ef5466;
+    background-color: white;
     color: #ef5466;
 }
