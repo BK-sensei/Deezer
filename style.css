@@ -107,7 +107,7 @@ hr{
     padding-top: 30px;
 }
 
-#premium{
+.premium{
     border: none;
     background-color: #ef5466;
     color: white;
@@ -180,4 +180,157 @@ hr{
 
 .avec-vous .text p{
     line-height: 1.5;
+}
+
+
+/* PROFITEZ DE VOTRE MUSIQUE */
+
+.enjoy-music{
+    padding: 50px;
+}
+
+.enjoy-music h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reco{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reco p{
+    color: #8e8e94;
+    margin-bottom: 10px;
+    font-size: 11px;
+} 
+
+.reco img{
+    width: 15px;
+    filter: brightness(1.4);
+}
+
+.abonnements{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border: 1px solid orange; */
+}
+
+.détails{
+    /* border: 1px solid pink; */
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+.deez{
+    /* border: 1px solid red; */
+    padding: 20px;
+    margin: 10px;
+}
+
+.title-abo{
+    text-align: center;
+}
+
+.title-abo h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.title-abo .price{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title-abo p{
+    margin-bottom: 30px;
+}
+
+.liste{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.liste img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.yes{
+    font-weight: bold;
+    color: #8e8e94;
+}
+
+.no{
+    font-weight: lighter;
+    color: #cfcfcf;
+}
+
+.shadow{
+    box-shadow: 0px 0px 10px 4px #c2c2c7;
+    
+}
+
+.deez-prem{
+    background-color: #2d96c8;
+    color: white;
+}
+
+.deez-prem .liste img{
+    filter: invert(100%);
+}
+
+.deez-prem .yes{
+    color: white;
+}
+
+.deez-prem .no{
+    color: white;
+}
+
+.choix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choix button{
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.choix .prem1{
+    background-color: gray;
+    margin-top: 35px;
+}
+
+.col-choix{
+    color: #2d96c8;
+    font-weight: bold;
+}
+
+.col-choix2{
+    font-weight: bold;
+}
+
+.conditions{
+    /* border: 1px solid green; */
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+    padding-left: 180px;
+    padding-right: 200px;
+    line-height: 1.4;
+    margin-top: 50px;
 }
