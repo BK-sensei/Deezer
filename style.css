@@ -65,7 +65,6 @@ hr{
 
 .accueil{
     height: 370px;
-    /* gap: 20px; */
     background-image: url("img/hero.png");
     background-position: top 0px right 80px;
     background-size: 600px;
@@ -258,10 +257,6 @@ hr{
     font-weight: 500;
     margin-top: 30px;
     margin-bottom: 5px;
-}
-
-.title-abo p{
-    /* margin-bottom: 30px; */
 }
 
 .liste{
@@ -474,4 +469,14 @@ footer{
 
 .credits .gris{
     color: gray;
+}
+
+
+/* ----- MEDIA QUERIES ------ */
+
+@media screen and (max-width: 1200px){
+    .accueil{
+        height: 250px;
+        background-size: 400px;
+    }
 }
