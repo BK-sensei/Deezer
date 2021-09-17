@@ -475,8 +475,41 @@ footer{
 /* ----- MEDIA QUERIES ------ */
 
 @media screen and (max-width: 1200px){
+    
+    /* ACCUEIL */
     .accueil{
-        height: 250px;
-        background-size: 400px;
+        height: 310px;
+        background-size: 500px;
+    }
+
+    .elements-accueil{
+        width: 400px;
+        padding-left: 200px;
+        margin-right: 20px;
+    }
+
+    .elements-accueil h2{
+        font-size: 30px;
+    }
+
+    .elements-accueil h3{
+        font-size: 20px;
+    }
+
+    .accueil-boutons {
+        width: 330px;
+    }
+
+    .accueil-boutons button{
+        width: 150px;
+    }
+
+    /* DEEZER C'EST QUOI ? */
+    .deezer-cquoi{
+        padding: 70px 130px 40px 130px;
+    }
+
+    .avec-vous{
+        padding: 50px 100px 50px 100px;
     }
 }
